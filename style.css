@@ -26,7 +26,6 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
 }
 
 /* HOVER */
@@ -226,6 +225,7 @@ footer .bottom-section .social-section a:hover {
     font-size: 44px;
     line-height: 78px;
     text-align: center;
+    text-transform: uppercase;
     color: var(--w);
     text-shadow: 0px 0px 10px var(--b);
   }
@@ -264,14 +264,22 @@ footer .bottom-section .social-section a:hover {
     font-weight: 900;
     font-size: 38px;
     line-height: 29px;
+    text-transform: none;
+  }
+
+  .about-section .about-content span.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--w);
   }
 
   .about-section .about-content p {
     font-family: "Karla", sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: none;
   }
 
   .about-section .icon1 {
@@ -319,6 +327,13 @@ footer .bottom-section .social-section a:hover {
     font-size: 40px;
     line-height: 28px;
     z-index: 2;
+    text-transform: none;
+  }
+
+  .company-section .company-left span.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--g);
   }
 
   .company-section .company-left p {
@@ -330,6 +345,7 @@ footer .bottom-section .social-section a:hover {
     z-index: 2;
     text-align: left;
     color: var(--g);
+    text-transform: none;
   }
 
   .company-section .company-right {
@@ -486,6 +502,7 @@ footer .bottom-section .social-section a:hover {
   footer .bottom-section p {
     font-weight: bold;
     text-transform: none;
+    color: var(--gr);
   }
 
   footer .bottom-section .social-section {
@@ -651,6 +668,7 @@ footer .bottom-section .social-section a:hover {
     font-size: 54px;
     line-height: 78px;
     text-align: center;
+    text-transform: uppercase;
     color: var(--w);
     text-shadow: 0px 0px 10px var(--b);
   }
@@ -689,14 +707,22 @@ footer .bottom-section .social-section a:hover {
     font-weight: 900;
     font-size: 38px;
     line-height: 29px;
+    text-transform: none;
+  }
+
+  .about-section .about-content span.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--w);
   }
 
   .about-section .about-content p {
     font-family: "Karla", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
-    text-align: justify;
+    text-align: left;
+    text-transform: none;
   }
 
   .about-section .icon1 {
@@ -743,6 +769,13 @@ footer .bottom-section .social-section a:hover {
     font-size: 42px;
     line-height: 28px;
     z-index: 2;
+    text-transform: none;
+  }
+
+  .company-section .company-left span.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--g);
   }
 
   .company-section .company-left p {
@@ -754,6 +787,7 @@ footer .bottom-section .social-section a:hover {
     z-index: 2;
     text-align: left;
     color: var(--g);
+    text-transform: none;
   }
 
   .company-section .company-right {
@@ -910,6 +944,7 @@ footer .bottom-section .social-section a:hover {
   footer .bottom-section p {
     font-weight: bold;
     text-transform: none;
+    color: var(--gr);
   }
 
   footer .bottom-section .social-section {
@@ -1073,6 +1108,7 @@ footer .bottom-section .social-section a:hover {
     font-size: 64px;
     line-height: 78px;
     text-align: center;
+    text-transform: uppercase;
     color: var(--w);
     text-shadow: 0px 0px 10px var(--b);
   }
@@ -1111,6 +1147,13 @@ footer .bottom-section .social-section a:hover {
     font-weight: 900;
     font-size: 48px;
     line-height: 59px;
+    text-transform: none;
+  }
+
+  .about-section .about-content span.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--w);
   }
 
   .about-section .about-content p {
@@ -1118,7 +1161,8 @@ footer .bottom-section .social-section a:hover {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    text-align: justify;
+    text-align: left;
+    text-transform: none;
   }
 
   .about-section .icon1 {
@@ -1166,6 +1210,13 @@ footer .bottom-section .social-section a:hover {
     font-size: 44px;
     line-height: 28px;
     z-index: 2;
+    text-transform: none;
+  }
+
+  .company-section .company-left span.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--g);
   }
 
   .company-section .company-left p {
@@ -1177,6 +1228,7 @@ footer .bottom-section .social-section a:hover {
     z-index: 2;
     text-align: left;
     color: var(--g);
+    text-transform: none;
   }
 
   .company-section .company-right {
@@ -1333,6 +1385,7 @@ footer .bottom-section .social-section a:hover {
   footer .bottom-section p {
     font-weight: bold;
     text-transform: none;
+    color: var(--gr);
   }
 
   footer .bottom-section .social-section {
